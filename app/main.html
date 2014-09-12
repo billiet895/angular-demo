@@ -1,0 +1,20 @@
+  <div ng-controller="ChatItemsController as chatCtrl">
+    <table class="table table-hover">
+      <thead>
+        <th class="col-xs-2" id="chat-date">Date created</th>
+        <th id="chat-date">User email</th>
+        <th id="chat-date">Title/Description</th>
+        <th id="chat-date">Waited</th>
+        <th id="chat-date">Chat duration</th>
+      </thead>
+      <tbody>
+        <tr class="table chat-item" ng-repeat="chat in chatitems" ng-click="detailPage(chat.id)">
+          <td>{{chat.created_at*1000 | date:'MM/dd/yyyy HH:mm'}}</td>
+          <td>{{chat.requested_by}}</td>
+          <td>{{chat.description}}</td>
+          <td>{{chat.chat_waittime}}</td>
+          <td>{{chat.chat_duration}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

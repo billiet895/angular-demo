@@ -1,0 +1,22 @@
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: url('../img/brillant.png') repeat;
+}
+tr:hover {
+  cursor: pointer;
+}
+.panel {
+  padding: 0;
+}
+.bubble {
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.odd {
+    background-color: #999;
+}
+.even {
+    background-color: #666;
+}

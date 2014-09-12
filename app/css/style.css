@@ -20,3 +20,11 @@ tr:hover {
 .even {
     background-color: #666;
 }
+.label {
+  min-width: 100px;
+  display: inline-block;
+  text-align: right;
+}
+.panel-body > div {
+  margin-bottom: 4px;
+}

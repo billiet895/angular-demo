@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   background: url('../img/brillant.png') repeat;
 }
-tr:hover {
+tbody tr:hover {
   cursor: pointer;
 }
 .panel {
